@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  min-width: 320px;
+  color: #333;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  line-height: 1.5;
+  overflow:hidden;
+}
+
+.d-wrap {
+  display: flex;
+  width:100%;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.d-demo-wrap{
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0;
+  background: #fff;
+  box-shadow: inset 0 0 7px rgba(69, 78, 140,0.5);
+}
+.d-demo-wrap .jctkr-label{
+  height: 35px;
+  padding: 0 17px;
+  line-height: 35px;
+  background: rgba(69, 78, 140,0.7);
+  font-size: 19px;
+  color: #fff;
+  cursor: default;
+}
+
+.d-demo-wrap .jctkr-label:hover{
+  background: rgba(69, 78, 140,0.9);
+}
+[class*="js-conveyor-"] ul{
+  display: inline-block;
+  opacity: 0.5;
+}
+[class*="js-conveyor-"] ul li{
+  padding: 0 20px;
+  line-height: 35px;
+  font-size: 16px;
+}
